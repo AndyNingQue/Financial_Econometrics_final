@@ -1,16 +1,16 @@
-	(1)	(2)
-VARIABLES	is_admission	is_admission
-		
-above_480	0.3193***	0.3193***
-	(34.55)	(34.55)
-delta	0.0037***	0.0037***
-	(9.09)	(9.09)
-Constant	0.3365***	0.3365***
-	(69.46)	(69.46)
-		
-Observations	45,000	45,000
-Adjusted R-squared	0.122	0.122
-Firm-type FE	Y	Y
-Time FE	Y	Y
-Robust t-statistics in parentheses		
-*** p<0.01, ** p<0.05, * p<0.1		
+	(1)	(2)	(3)
+VARIABLES	is_admission	is_admission	is_admission
+			
+above_480	0.3193***	0.3193***	0.3193***
+	(34.55)	(34.55)	(34.55)
+delta	0.0037***	0.0037***	0.0037***
+	(9.09)	(9.09)	(9.09)
+Constant	0.3365***	0.3365***	0.3365***
+	(69.46)	(69.46)	(69.46)
+			
+Observations	45,000	45,000	45,000
+Adjusted R-squared	0.122	0.122	0.122
+Firm-type FE	Y	Y	Y
+Time FE	Y	Y	Y
+Robust t-statistics in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
