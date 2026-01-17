@@ -1,0 +1,16 @@
+	(1)	(2)	(3)
+VARIABLES	lp4p_fin_price_3m_aft1f_w	lonline_prod_cnt_aft1f_w	crate3f_w
+			
+prediction_d	-0.2675	0.1160	0.3914
+	(-1.32)	(1.36)	(0.96)
+delta	0.0044	-0.0020	-0.0099
+	(1.27)	(-1.22)	(-1.35)
+Constant	3.0369***	3.7324***	7.2655***
+	(30.02)	(89.20)	(35.47)
+			
+Observations	45,000	45,000	45,000
+Adjusted R-squared	-0.000	0.000	0.000
+Firm-type FE	Y	Y	Y
+Time FE	Y	Y	Y
+Robust t-statistics in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

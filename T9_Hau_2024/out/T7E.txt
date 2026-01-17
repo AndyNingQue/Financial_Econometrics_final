@@ -1,0 +1,16 @@
+	(1)	(2)	(3)	(4)	(5)
+VARIABLES	d_sales_aft1_b1_w	d_lntrans_aft1_b1_w	dsr_zl_mm_aft1_wl	dsr_fw_mm_aft1_wl	dsr_fh_mm_aft1_wl
+					
+prediction_d	0.0531	-0.1430	0.0004***	0.0281	0.0286
+	(0.37)	(-1.36)	(2.65)	(1.45)	(1.33)
+delta	-0.0010	0.0018	-0.0000***	-0.0005	-0.0005
+	(-0.32)	(0.77)	(-2.68)	(-1.21)	(-1.11)
+Constant	-0.4797***	-0.4115***	0.5016***	0.4862***	0.4870***
+	(-6.67)	(-7.82)	(6,245.63)	(50.13)	(45.50)
+					
+Observations	32,281	32,281	32,281	32,281	32,281
+Adjusted R-squared	-0.001	0.001	1.000	-0.000	0.000
+Firm-type FE	Y	Y	Y	Y	Y
+Time FE	Y	Y	Y	Y	Y
+Robust t-statistics in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					
