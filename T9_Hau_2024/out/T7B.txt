@@ -1,16 +1,16 @@
-	(1)	(2)	(3)
-VARIABLES	dsr_zl_mm_p1m1_wl	dsr_fw_mm_p1m1_wl	dsr_fh_mm_p1m1_wl
-			
-prediction_d	-0.0202	0.0333	0.0398
-	(-0.95)	(1.21)	(1.17)
-delta	0.0003	-0.0006	-0.0005
-	(0.76)	(-1.31)	(-1.01)
-Constant	0.0095	-0.0172	-0.0206
-	(0.88)	(-1.23)	(-1.19)
-			
-Observations	29,924	29,924	29,924
-Adjusted R-squared	0.501	-0.000	0.000
-Firm-type FE	Y	Y	Y
-Time FE	Y	Y	Y
-Robust t-statistics in parentheses			
-*** p<0.01, ** p<0.05, * p<0.1			
+	(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	dsr_zl_mm_p1m1_wl	dsr_fw_mm_p1m1_wl	dsr_fh_mm_p1m1_wl	dsr_zl_mm_p1m1_wl	dsr_fw_mm_p1m1_wl	dsr_fh_mm_p1m1_wl
+						
+prediction_d	-0.0202	0.0333	0.0398	-0.0202	0.0333	0.0398
+	(-0.95)	(1.21)	(1.17)	(-0.95)	(1.21)	(1.17)
+delta	0.0003	-0.0006	-0.0005	0.0003	-0.0006	-0.0005
+	(0.76)	(-1.31)	(-1.01)	(0.76)	(-1.31)	(-1.01)
+Constant	0.0095	-0.0172	-0.0206	0.0095	-0.0172	-0.0206
+	(0.88)	(-1.23)	(-1.19)	(0.88)	(-1.23)	(-1.19)
+						
+Observations	29,924	29,924	29,924	29,924	29,924	29,924
+Adjusted R-squared	0.501	-0.000	0.000	0.501	-0.000	0.000
+Firm-type FE	Y	Y	Y	Y	Y	Y
+Time FE	Y	Y	Y	Y	Y	Y
+Robust t-statistics in parentheses						
+*** p<0.01, ** p<0.05, * p<0.1						

@@ -1,0 +1,15 @@
+	(1)	(2)	(3)	(4)	(5)
+VARIABLES	d_sales_aft1_b1_w	d_lntrans_aft1_b1_w	dsr_zl_mm_aft1_wl	dsr_fw_mm_aft1_wl	dsr_fh_mm_aft1_wl
+					
+is_admission	0.0511	-0.1428	0.0003**	0.0191	0.0220
+	(0.43)	(-1.62)	(2.24)	(1.25)	(1.22)
+delta	-0.0008	0.0022	-0.0000**	-0.0003	-0.0003
+	(-0.42)	(1.47)	(-2.43)	(-0.98)	(-0.89)
+					
+Observations	45,000	45,000	45,000	45,000	45,000
+Adjusted R-squared	-0.000	-0.002	-0.004	-0.001	-0.002
+Firm-type FE	Y	Y	Y	Y	Y
+Time FE	Y	Y	Y	Y	Y
+KP-rk	1194	1194	1194	1194	1194
+Robust t-statistics in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					
